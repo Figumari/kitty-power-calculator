@@ -1,0 +1,72 @@
+.gridpane{
+    -fx-background-color: #fecce7;
+}
+
+.label{
+    -fx-background-color: olive;
+    -fx-alignment: center-right;
+    -fx-font-family:'French Script MT';
+    -fx-font-size: 54;
+    -fx-border-color: #eecff9;
+    -fx-border-width: 30px;
+    -fx-pref-width: 400px;
+}
+
+.button{
+    -fx-background-color: inherit;
+    -fx-border-color: inherit;
+    -fx-font-size: 24;
+}
+
+.function-key{
+    -fx-background-image: url("heartshadow.png");
+    -fx-background-size: 60px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-text-fill: white;
+}
+
+.function-key:pressed{
+    -fx-background-image: url("heartpressed.png");
+}
+
+.number-key{
+    -fx-background-image: url("catshadow.png");
+    -fx-background-size: 60px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-font-family: 'French Script MT';
+}
+
+.number-key:pressed{
+    -fx-background-image: url("catpressed.png");
+}
+
+.zero-key{
+    -fx-background-image: url("bowshadow.png");
+    -fx-background-size: 100px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-text-fill: white;
+}
+
+.zero-key:pressed{
+    -fx-background-image: url("bowpressed.png");
+}
+
+.equal-key{
+    -fx-background-image: url("equalshadow.png");
+    -fx-background-size: 60px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-text-fill: white;
+}
+
+.equal-key:pressed{
+    -fx-background-image: url("equalpressed.png");
+}
+
+.normal-key{
+    -fx-pref-height: 100px;
+    -fx-pref-width: 80px;
+}
